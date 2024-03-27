@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Printf("Привет")
+	var userHeight = 1.8
+	var userKg = 100
+	var IMT = userKg / userHeight
 }
