@@ -8,6 +8,10 @@ import (
 const IMTPower = 2
 
 func main() {
+	for i := 0; i < 10; i++ {
+		fmt.Printf("%d\n", i)
+	}
+
 	fmt.Println("__ Калькулятор индекса массы тела __")
 	userKg, userHeight := getUserInput()
 	IMT := calculateIMT(userKg, userHeight)
